@@ -77,14 +77,14 @@ export default function HomePage() {
       <div className="text-center">
         <Button 
           onClick={goToPeriodTracker}
-          className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg"
+          className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 text-lg"
         >
           Get Started
         </Button>
       </div>
 
-      <footer className="mt-12 text-center text-sm text-gray-500">
-        <p>Privacy-focused • Offline-first • Your data stays on your device</p>
+      <footer className="mt-12 text-center text-sm text-muted-foreground">
+        <p>Privacy-focused • Offline-first </p>
       </footer>
     </main>
   )

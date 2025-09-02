@@ -61,7 +61,7 @@ export default function PeriodTrackerPage() {
               inputMode="numeric"
               pattern="[0-9]*"
             />
-            <Button className="bg-blue-600 hover:bg-blue-700 text-white">Unlock</Button>
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">Unlock</Button>
           </div>
           <p className="mt-2 text-xs text-gray-500">Note: This is a local privacy lock, not secure encryption.</p>
         </Card>
@@ -86,8 +86,8 @@ export default function PeriodTrackerPage() {
         </div>
       )}
 
-      <footer className="mt-10 text-center text-xs text-gray-500">
-        Colors used: blue-600 (primary), white, gray-900/500 (neutrals), rose-500/300 (accent). No gradients.
+      <footer className="mt-10 text-center text-xs text-muted-foreground">
+        Privacy-focused • Offline-first • Your data stays on your device
       </footer>
     </main>
   )
