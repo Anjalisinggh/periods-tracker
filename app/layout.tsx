@@ -4,7 +4,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Period Tracker - Your Personal Cycle Companion',
-  description: 'Comprehensive offline-first period tracking app with logging, predictions, symptoms tracking, notes, reminders, and insights.',
+  description: 'Comprehensive  period tracking app with logging, predictions, symptoms tracking, notes, reminders, and insights.',
   generator: 'Next.js',
   icons: {
     icon: '/icon.jpg',

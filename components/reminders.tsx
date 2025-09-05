@@ -56,7 +56,7 @@ export function Reminders() {
           <Input type="date" value={date} onChange={(e) => setDate(e.target.value)} />
         </div>
         <div className="md:col-span-2 space-y-1.5">
-          <Label>Reminder</Label>
+          <Label>Reminder for your periods </Label>
           <Input placeholder="Take pain relief" value={text} onChange={(e) => setText(e.target.value)} />
         </div>
         <div className="md:col-span-3">
